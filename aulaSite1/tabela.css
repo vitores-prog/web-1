@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+tr{
+      color: rgb(243, 243, 247);
+       
+}
+th{
+     color: rgb(243, 243, 247);
+}
+td{
+     color: rgb(243, 243, 247);
+      width: 100px;
+      padding: 20px;
+}
+.ajuste{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

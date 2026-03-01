@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+
+}
+.conteiner{
+        align-items: center;
+        justify-content: center;
+        display: flex; 
+}
+.quadrado{
+    background-color: #693efe;
+         padding: 100px;
+         width: 100px;
+         align-items: center;
+        justify-content: center;
+        display: flex; 
+        border-radius: 10px;
+}
+input{
+         width: 250px;
+         border-radius: 10px;
+
+}
+h2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+}
