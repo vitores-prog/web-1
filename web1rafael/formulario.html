@@ -63,15 +63,75 @@
         <div>
             <label for="">
                 telefone
-                    <input type="tel" required placeholder="(xx)xxxxx-xxxx">
+                <input type="tel" required placeholder="(xx)xxxxx-xxxx">
+        </div>
 
+        <div>
             </label>
             <label for="email">
-                E-mail
+                E-mail <input type="email" id="email">
             </label>
-            </div>
+        </div>
+        <br>
+        <div>
+            <label for="peso">
+                Peso:<input type="number" min="0" max="200" step="0.5">
+            </label>
+        </div>
+
+        <div>
+            <label for="Volume">
+                <input type="range" min="0" max="100" step="20">
+            </label>
+        </div>
         <br>
 
+        <div>
+            <label for="">
+                <input type="text">
+            </label>
+        </div>
+
+        <fieldset>
+            <legend>EStado Civil</legend>
+            <p>
+                <label><input type="radio" name="est_civil" value="casado">Casado
+                </label>
+            </p>
+            <p>
+                <label><input type="radio" name="est_civil" value="casado">Solteiro
+                </label>
+            </p>
+            <p>
+                <label><input type="radio" name="est_civil" value="divorciado">Divorciado
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <p>
+                <div>
+                    <label for="checkbox" name="computador" value="computador">Computador
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="impressora" value="impessora">impressoa
+                    </label>
+                </div>
+                    <div>
+                    <label for="checkbox" name="computador" value="monitor">Monitor
+                    </label>
+                </div>
+                
+                <div>
+                    Deixe sua sugestao;
+                    <textarea cols="30" rows="5"></textarea>
+                </div>
+                </p>
+            </legend>
+        </fieldset>
         <button type="submit">Enviar</button>
     </form>
 </body>
